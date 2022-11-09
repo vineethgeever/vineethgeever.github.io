@@ -1,0 +1,100 @@
+.home .intro {
+  color: #FFFFFF;
+  left: auto;
+  right: 0;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  margin-right: 5%;
+  text-align: right;
+}
+
+.home .intro h1 {
+  font-weight: 800;
+  font-size: 5vw;
+}
+
+.home .intro h3 {
+  font-weight: 300;
+  font-size: 3vw;
+}
+
+.home .intro .social {
+  margin-top: 1%;
+}
+
+.home .intro .social a {
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+
+.home .intro .social a svg {
+  width: 3vw;
+  height: 5vh;
+}
+
+.home .arrow {
+  text-align: center;
+  margin: 8% auto;
+  width: 3vw;
+  fill: #FFFFFF;
+  cursor: pointer;
+}
+
+.home .bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .home .intro {
+    margin-top: 0;
+  }
+
+  .home .intro h1 {
+    font-size: 8vw;
+  }
+
+  .home .intro h3 {
+    font-size: 5vw;
+  }
+
+  .home .intro .social {
+    margin-top: 0;
+  }
+
+  .home .intro .social a {
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  .home .intro .social a svg {
+    width: 7vw;
+    height: 4vh;
+  }
+
+  .home .arrow {
+    margin: auto;
+    width: 5vw;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 991px) {
+  .home .intro {
+    margin-top: 10%;
+  }
+}

@@ -1,0 +1,21 @@
+.portfolio-container {
+  background: #21201E;
+  background-image: url("./assets/images/home-image.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) { 
+  .portfolio-container {
+    background-image: url("./assets/images/home-image-mobile.png");
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 991px) { 
+  .portfolio-container {
+    background-image: url("./assets/images/home-image-tablet.png");
+  }
+}

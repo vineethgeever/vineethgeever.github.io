@@ -1,0 +1,83 @@
+{
+    "name": "Vineeth Paul Geever",
+    "email": "vineeth.geever@gmail.com",
+    "github": "https://github.com/vineethgeever",
+    "linkedin": "https://linkedin.com/in/vineethgeever",
+    "facebook": "https://facebook.com/vineethgeever",
+    "profileDescription": "an experienced and passionate Full Stack Engineer from India, with 6 years of IT experience majorly in web and cloud technologies. During my career, I have designed and built multiple complex components and frameworks from scratch used in enterprise-level web applications involving cutting-edge technologies like Angular, React, .Net Core, .Net Framework, SQL Server and Azure Cloud Services. I also have the knowledge to discover hotspots of memory leakage and implement techniques to improve the performance of complex web applications. I enjoy learning new technologies by involving in R&D works and thrives while being part of a team and collaborating with others. \nApart from this, I'm involved in a “Scrap Management” project of which I'm extremely proud of, using React, .Net Core and SQL Server technology stack. This project once released, automates bidding, eliminates the monopoly in government-operated warehouses and brings transparency to the whole scrap market.",
+    "profileDescriptionImage": "./images/app-development.png",
+    "technologies": [
+        {
+            "name": "Angular",
+            "imagePath": "./images/angular.png"
+        },
+        {
+            "name": "React",
+            "imagePath": "./images/react-js.png"
+        },
+        {
+            "name": "Vanilla Javascript",
+            "imagePath": "./images/javascript.png"
+        },
+        {
+            "name": "Typescript",
+            "imagePath": "./images/typescript.png"
+        },
+        {
+            "name": "HTML 5",
+            "imagePath": "./images/html.png"
+        },
+        {
+            "name": "CSS 3",
+            "imagePath": "./images/css.png"
+        },
+        {
+            "name": "Sass/SCSS",
+            "imagePath": "./images/sass.png"
+        },
+        {
+            "name": "C#",
+            "imagePath": "./images/c-sharp.png"
+        },
+        {
+            "name": ".Net Core",
+            "imagePath": "./images/dot-net-core.png"
+        },
+        {
+            "name": ".Net Framework",
+            "imagePath": "./images/dot-net-framework.png"
+        },
+        {
+            "name": "MS SQL Server",
+            "imagePath": "./images/sql-server.png"
+        },
+        {
+            "name": "Entity Framework",
+            "imagePath": "./images/ef-core.png"
+        },
+        {
+            "name": "Azure",
+            "imagePath": "./images/azure.png"
+        },
+        {
+            "name": "Git",
+            "imagePath": "./images/git.png"
+        },
+        {
+            "name": "Bootstrap",
+            "imagePath": "./images/bootstrap-5.png"
+        },
+        {
+            "name": "Postman",
+            "imagePath": "./images/postman.png"
+        },
+        {
+            "name": "Jasmine",
+            "imagePath": "./images/jasmine.png"
+        },
+        {
+            "name": "Karma",
+            "imagePath": "./images/karma.png"
+        }
+    ]
+}

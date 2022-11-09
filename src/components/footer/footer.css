@@ -1,0 +1,21 @@
+.footer {
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5% 0;
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 991px) { 
+    .footer {
+        width: 100%;
+        height: auto;
+        letter-spacing: 0;
+        text-align: center;
+        padding: 3% 0;
+        font-size: 3vw;
+    }
+}

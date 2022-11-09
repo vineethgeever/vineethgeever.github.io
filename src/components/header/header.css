@@ -1,0 +1,46 @@
+.header-container {
+    position: sticky;
+    top: 0%;
+    z-index: 9;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0ms, opacity 300ms;
+}
+
+.hide-header {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 500ms, opacity 300ms;
+}
+
+.header-navbar, .hamburger-navbar {
+    font-weight: 700;
+    font-size: large;
+    font-variant: all-small-caps;
+    letter-spacing: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-item {
+    margin: 0 0.5vw;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 255);
+    cursor: pointer;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header-navbar {
+        display: none;
+    }
+}

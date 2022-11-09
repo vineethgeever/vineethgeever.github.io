@@ -1,0 +1,53 @@
+.about {
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-size: 1vw;
+    padding: 10vh 0;
+}
+
+.about h3 {
+    font-weight: 700;
+    font-size: 2vw;
+    font-variant: all-small-caps;
+}
+
+.about .profile {
+    width: 60%;
+    text-align: justify;
+    margin-right: 2%;
+    white-space: break-spaces;
+}
+
+.about .profile-side-image {
+    width: 25%;
+    margin: auto;
+}
+
+.about .profile-side-image img {
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .about {
+        letter-spacing: 0;
+        font-size: 4vw;
+        padding: 5vh 0;
+    }
+
+    .about h3 {
+        font-size: 6vw;
+    }
+
+    .hstack {
+        flex-direction: column;
+    }
+
+    .about .profile {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .about .profile-side-image {
+        width: 50%;
+    }
+}

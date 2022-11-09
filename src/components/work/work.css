@@ -1,0 +1,52 @@
+.work {
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-size: 1vw;
+    padding: 10vh 0;
+}
+
+.work h3 {
+    font-weight: 700;
+    font-size: 2vw;
+    font-variant: all-small-caps;
+}
+
+.work .technology {
+    padding: 5%;
+    text-align: center;
+}
+
+.work .technology .icon {
+    height: 75%;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.work .technology img {
+    width: 100%;
+    height: inherit;
+}
+
+@media screen and (max-width: 991px) {
+    .work {
+        letter-spacing: 0;
+        font-size: 4vw;
+        padding: 5vh 0;
+    }
+
+    .work h3 {
+        font-size: 6vw;
+    }
+
+    .work .col-2 {
+        width: 33.33333333%;
+    }
+
+    .work .technology {
+        padding: 8%;
+    }
+
+    .work .technology .icon {
+        height: 70%;
+    }
+}
